@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import pprint
 
 load_dotenv(override=True)
-api_key = os.getenv("api_key_weather")
+api_key = os.getenv("API_KEY_WEATHER")
 link_api = "http://api.weatherapi.com/v1/current.json"
 
 parameter = {
